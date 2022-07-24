@@ -78,7 +78,6 @@
 }
 .holberton_school-icon-menu:before {
   content: "\e911";
-  cursor: pointer;
 }
 .holberton_school-icon-search_1:before {
   content: "\e912";

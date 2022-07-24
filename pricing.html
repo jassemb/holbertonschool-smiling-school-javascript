@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <!-- CSS Styling -->
         <link rel="stylesheet" href="./styles.css">
+        <script src="scripts.js"></script>
     </head>
     <body>
         <main class="pricing-main">
@@ -117,31 +118,8 @@
             <!-- QUOTES SECTION -->
             <section class="quotes-section">
                 <div id="quotesCarouselControls" class="carousel slide container-md" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item carousel-item-content active">
-                            <div class="row">
-                                <div class="col-sm-3 text-center">
-                                    <img class="rounded-circle" src="./images/profile_5.jpg" class="d-block w-100" alt="random person image">
-                                </div>
-                                <div class="col-sm-8 ml-3 d-flex flex-column">
-                                    <div>&lt;&lt; « Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun! &gt;&gt;</div>
-                                    <div class="font-weight-bold mt-3">Person Name</div>
-                                    <div>weather presenter</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item carousel-item-content">
-                            <div class="row">
-                                <div class="col-sm-3 text-center">
-                                    <img class="rounded-circle" src="./images/profile_5.jpg" class="d-block w-100" alt="random person image">
-                                </div>
-                                <div class="col-sm-8 ml-3 d-flex flex-column">
-                                    <div>&lt;&lt; « Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun! &gt;&gt;</div>
-                                    <div class="font-weight-bold mt-3">Person Name</div>
-                                    <div>weather presenter</div>
-                                </div>
-                            </div>
-                        </div>
+                      <div id="quotesCarouselInner" class="carousel-inner">
+                        <div id="QuotesLoader" class="loader"></div>
                     </div>
                     <a class="carousel-control-prev" href="#quotesCarouselControls" role="button" data-slide="prev">
                         <span class="holberton_school-icon-arrow_4 display-1" aria-hidden="true"></span>
